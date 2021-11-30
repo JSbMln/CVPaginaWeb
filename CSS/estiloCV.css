@@ -13,7 +13,7 @@ body {
 }
 
 #fotoPerfil {
-  width: 130px;
+  width: 150px;
   height: inherit;
   float: left;
 }
@@ -25,6 +25,15 @@ h3 {
 .sobreMi {
   text-align: justify;
   text-indent: 10pt;
+}
+
+dt {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+dd {
+  font-style: italic;
 }
 
 th {
