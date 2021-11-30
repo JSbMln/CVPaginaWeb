@@ -1,0 +1,54 @@
+body {
+  background-color: #d9d9d9;
+}
+
+#titulo {
+  background-color: #3c6e71;
+  border-style: double;
+  border-color: #353535;
+  border-width: 5px;
+  height: 150px;
+  text-align: center;
+  color: white;
+}
+
+#fotoPerfil {
+  width: 130px;
+  height: inherit;
+  float: left;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.sobreMi {
+  text-align: justify;
+  text-indent: 10pt;
+}
+
+th {
+  background-color: #284b63;
+  color: #d9d9d9;
+  border-style: solid;
+  border-color: #353535;
+  border-width: 4px;
+}
+
+td {
+  background-color: #3c6e71;
+  border-style: solid;
+  border-color: #353535;
+  border-width: 4px;
+  color: white;
+}
+
+.listaSkills li {
+  list-style-type: none;
+  position: relative;
+  left: -1.8em;
+}
+
+span.contacto {
+  margin-inline: 25px;
+}
