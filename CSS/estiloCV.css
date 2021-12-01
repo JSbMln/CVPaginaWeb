@@ -1,15 +1,41 @@
 body {
-  background-color: #d9d9d9;
+  background-color: #a8dadc;
+  color: #1d3557;
+}
+
+#barra_nav {
+  background-color: #e63946;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#barra_nav li {
+  float: left;
+}
+
+#barra_nav a {
+  display: block;
+  color: #f1faee;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#barra_nav a:hover {
+  background-color: #f1faee;
+  color: #e63946;
 }
 
 #titulo {
-  background-color: #3c6e71;
+  background-color: #457b9d;
   border-style: double;
-  border-color: #353535;
+  border-color: #1d3557;
   border-width: 5px;
   height: 150px;
   text-align: center;
-  color: white;
+  color: #f1faee;
 }
 
 #fotoPerfil {
@@ -36,28 +62,51 @@ dd {
   font-style: italic;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
 th {
-  background-color: #284b63;
-  color: #d9d9d9;
+  background-color: #e63946;
+  color: #f1faee;
   border-style: solid;
-  border-color: #353535;
-  border-width: 4px;
+  border-color: #1d3557;
+  border-width: 2px;
+  padding: 8px;
+  font-size: 22px;
 }
 
 td {
-  background-color: #3c6e71;
+  background-color: #457b9d;
   border-style: solid;
-  border-color: #353535;
-  border-width: 4px;
-  color: white;
+  border-color: #1d3557;
+  border-width: 2px;
+  color: #f1faee;
+  font-size: 18px;
+}
+
+.listaSkills {
+  margin: 0;
+  padding: 5px 10px;
 }
 
 .listaSkills li {
   list-style-type: none;
-  position: relative;
-  left: -1.8em;
 }
 
-span.contacto {
-  margin-inline: 25px;
+#pie_pagina span {
+  display: inline-block;
+  padding: 15px;
+  vertical-align: 5px;
+}
+
+#pie_pagina a {
+  text-decoration: none;
+  color: #1d3557;
+}
+
+#pie_pagina a:hover {
+  font-weight: bolder;
+  color: #457b9d;
 }
