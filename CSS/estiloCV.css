@@ -3,36 +3,9 @@ body {
   color: #1d3557;
 }
 
-#barra_nav {
-  background-color: #e63946;
-  list-style-type: none;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-}
-
-#barra_nav li {
-  float: left;
-}
-
-#barra_nav a {
-  display: block;
-  color: #f1faee;
-  text-align: center;
-  padding: 15px;
-  text-decoration: none;
-}
-
-#barra_nav a:hover {
-  background-color: #f1faee;
-  color: #e63946;
-}
-
-#titulo {
+header {
   background-color: #457b9d;
-  border-style: double;
-  border-color: #1d3557;
-  border-width: 5px;
+  border: double #1d3557 5px;
   height: 150px;
   text-align: center;
   color: #f1faee;
@@ -44,13 +17,38 @@ body {
   float: left;
 }
 
+nav {
+  background-color: #e63946;
+  border-radius: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: inline-block;
+  color: #f1faee;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #f1faee;
+  color: #e63946;
+  border-radius: inherit;
+}
+
 h3 {
   text-decoration: underline;
 }
 
-.sobreMi {
+hr {
+  border: inset 2px steelblue;
+}
+
+.sobreMi p {
   text-align: justify;
-  text-indent: 10pt;
+  text-indent: 15pt;
 }
 
 dt {
@@ -58,8 +56,12 @@ dt {
   text-transform: uppercase;
 }
 
-dd {
+dd:first-of-type {
   font-style: italic;
+}
+
+dd a {
+  text-decoration: none;
 }
 
 table {
@@ -70,9 +72,7 @@ table {
 th {
   background-color: #e63946;
   color: #f1faee;
-  border-style: solid;
-  border-color: #1d3557;
-  border-width: 2px;
+  border: solid #1d3557 2px;
   padding: 8px;
   font-size: 22px;
 }
@@ -86,27 +86,35 @@ td {
   font-size: 18px;
 }
 
-.listaSkills {
+.skills ul {
   margin: 0;
   padding: 5px 10px;
 }
 
-.listaSkills li {
+.skills li {
   list-style-type: none;
 }
 
-#pie_pagina span {
+footer {
+  text-align: center;
+}
+
+footer span {
   display: inline-block;
   padding: 15px;
   vertical-align: 5px;
 }
 
-#pie_pagina a {
+footer a {
   text-decoration: none;
   color: #1d3557;
 }
 
-#pie_pagina a:hover {
+footer a:hover {
   font-weight: bolder;
   color: #457b9d;
+}
+
+footer p {
+  font-size: 12px;
 }
