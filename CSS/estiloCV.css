@@ -6,15 +6,18 @@ body {
 header {
   background-color: #457b9d;
   border: double #1d3557 5px;
-  height: 150px;
-  text-align: center;
   color: #f1faee;
+  display: flex;
+}
+
+header div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin: auto;
 }
 
 #fotoPerfil {
-  width: 150px;
-  height: inherit;
-  float: left;
+  width: 140px;
 }
 
 nav {
@@ -43,7 +46,10 @@ h3 {
 }
 
 hr {
-  border: inset 2px steelblue;
+  border-style: dotted none none;
+  border-width: 4px;
+  border-color: #e63946;
+  width: 30%;
 }
 
 .sobreMi p {
@@ -97,6 +103,9 @@ td {
 
 footer {
   text-align: center;
+  background-color: #1d3557;
+  color: #f1faee;
+  border-radius: 0 0 35px 35px;
 }
 
 footer span {
@@ -107,7 +116,7 @@ footer span {
 
 footer a {
   text-decoration: none;
-  color: #1d3557;
+  color: #f1faee;
 }
 
 footer a:hover {
