@@ -4,49 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/estiloCV.css">
+    <link rel="stylesheet" href="../CSS/estilo.css">
     <title>Habilidades</title>
 </head>
 <body>
-    <!-- Barra de navegacion -->
-    <nav>
-        <a href="../index.html">Inicio</a>
-        <a href="../Paginas/experiencia.html">Experiencia Profesional</a>
-        <a href="../Paginas/formacion.html">Formación</a>
-        <a href="#">Habilidades</a>
+    <nav>    
+        <a href="../index.html"><i class="bi bi-house-fill"></i>Inicio</a>
+        <a href="experiencia.html"><i class="bi bi-briefcase-fill"></i>Experiencia Profesional</a>
+        <a href="formacion.html"><i class="bi bi-mortarboard-fill"></i>Formación</a>
+        <a href="#"><i class="bi bi-vector-pen"></i>Habilidades</a>
     </nav>
-    <!-- Habilidades -->
-    <section class="skills">
-        <h3>Habilidades</h3>
-        <table>
-            <th>Habilidades Personales</th>
-            <th>Habilidades Profesionales</th>
-            <tr>
-                <!-- Habilidades Personales-->
-                <td>
-                    <ul>
-                        <li>Proactivo</li>
-                        <li>Autodidacta</li>
-                        <li>Trabajo en Equipo</li>
-                        <li>Resolución de Problemas</li>
-                    </ul>
-                </td>
-                <!-- Habilidades Profesionales-->
-                <td>
-                    <ul>
-                        <li>Análisis de Circuitos y Redes Eléctricas</li>
-                        <li>Diseño de Redes Eléctricas</li>
-                        <li>Python</li>
-                        <li>MATLAB y Simulink</li>
-                        <li>Consultas en Bases de Datos SQL</li>
-                        <li>HTML y CSS</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-    </section>
+    <main>
+        <h1>Habilidades Profesionales (Hard Skills)</h1>
+        <section class="malla-skills">
+            <div>
+                <img src="../Imagenes/Matlab_Logo.png" alt="logo-MATLAB">
+                <h2>MATLAB/Simulink</h2>
+                <ul>
+                    <li>Programación de Scripts</li>
+                    <li>Interfaces de Usuario GUI</li>
+                    <li>Diagramas de Simulación</li>
+                </ul>
+            </div>
+            <div>
+                <img src="../Imagenes/python_logo.png" alt="logo-python">
+                <h2>Python</h2>
+                <ul>
+                    <li>Análisis de datos con Numpy, Pandas y Matplotlib</li>
+                    <li>Manipulación de bases de datos con Python</li>
+                    <li>Uso de Scikit-learn</li>
+                </ul>
+            </div>
+            <div>
+                <img src="../Imagenes/autocad_logo.png" alt="logo-autocad">
+                <h2>AutoCAD</h2>
+                <ul>
+                    <li>Dibujado en 2D</li>
+                    <li>Planos Eléctricos</li>
+                </ul>
+            </div>
+            <div>
+                <img src="../Imagenes/electrical.png" alt="img-rayo">
+                <h2>Análisis y Diseños Eléctricos</h2>
+                <ul>
+                    <li>Dimensionamiento de conductores y transformadores</li>
+                    <li>Análisis de Sistemas Eléctricos de Potencia</li>
+                    <li>Diseño de redes de distribución</li>
+                    <li>Cálculos de transformadores y motores</li>
+                    <li>Uso de DIgSILENT Power Factory</li>
+                </ul>
+            </div>
+            <div>
+                <img src="../Imagenes/database.png" alt="img-database">
+                <h2>Bases de Datos</h2>
+                <ul>
+                    <li>Consultas en bases de datos SQL</li>
+                    <li>Uso de MySQL y Postgresql</li>
+                    <li>Creación y Modificación de Tablas en SQL</li>
+                </ul>
+            </div>
+            <div>
+                <img src="../Imagenes/front_end.png" alt="logo-frontend">
+                <h2>Desarrollo Web (Front-End)</h2>
+                <ul>
+                    <li>HTML 5</li>
+                    <li>CSS 3</li>
+                    <li>Bootstrap 4</li>
+                </ul>
+            </div>
+        </section>
+        <h1>Habilidades Personales (Soft Skills)</h1>
+        <section class="malla-skills centrado">
+            <div>
+                <img src="../Imagenes/proactivo.png" alt="img-proactivo">
+                <h2>Proactivo</h2>
+            </div>
+            <div>
+                <img src="../Imagenes/autodidacta.png" alt="img-autodidacta">
+                <h2>Autodidacta</h2>
+            </div>
+            <div>
+                <img src="../Imagenes/trabajo_equipo.png" alt="img-teamwork">
+                <h2>Trabajo en Equipo</h2>
+            </div>
+        </section>
+    </main>
     <footer>
-        <p>Creado por: Juan Sebastian Molina, 2021</p>
+        <p>Información de Contacto y Links</p>
+        <span>Correo:
+            <a href="mailto:juan.molf16@gmail.com?subject=Contacto">juan.molf16@gmail.com</a>
+        </span>
+        <span>Quito, Ecuador</span>
+        <a href="https://www.linkedin.com/in/jsbmln0296/" target="_blank" style="margin-inline: 25px;">
+            <img src="../Imagenes/logoLinked.png" style="width: 25px; height: 25px;"/>
+        </a>
+        <a href="https://github.com/jsbmln" target="_blank" style="margin-inline: 25px;">
+            <img src="../Imagenes/logoGit.svg" style="width: 25px; height: 25px;"/>
+        </a>
+        <p>
+            Creado por: Juan Sebastian Molina, 2021
+        </p>
     </footer>
 </body>
 </html>

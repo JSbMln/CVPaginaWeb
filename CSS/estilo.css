@@ -1,0 +1,168 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+body {
+  background-color: #d9cab3;
+  margin: 0;
+}
+
+nav {
+  background-color: #6d9886;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  display: inline-block;
+  color: #f6f6f6;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #212121;
+  color: #f6f6f6;
+}
+
+nav a i {
+  margin-right: 8px;
+}
+
+header {
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+header div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+header img {
+  width: 120px;
+  margin: 15px auto 0 auto;
+  border-radius: 10%;
+  display: block;
+  border: 5px double #6d9886;
+}
+
+main h1 {
+  font-family: cursive;
+  text-align: center;
+  border-width: 3px 0;
+  border-style: dotted;
+  border-color: #212121;
+  width: 30%;
+  margin: 20px auto;
+}
+
+.desc-alternada section {
+  clear: both;
+  margin: 30px auto;
+  padding: 10px;
+  width: 80%;
+  display: flow-root;
+  box-shadow: 10px 10px 5px #212121;
+  border: 8px ridge #212121;
+}
+
+.desc-alternada.centrado section {
+  width: 60%;
+}
+
+.desc-alternada img {
+  width: 30%;
+}
+
+.desc-alternada.centrado img {
+  width: 15%;
+}
+
+.desc-alternada section:nth-of-type(2n + 1) img {
+  float: left;
+  margin-right: 25px;
+}
+
+.desc-alternada section:nth-of-type(2n) img {
+  float: right;
+  margin-left: 25px;
+}
+
+.desc-alternada p {
+  text-align: justify;
+  line-height: 2;
+  text-indent: 20px;
+}
+
+dl {
+  display: inline-block;
+  line-height: 1.5;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+dl dd:first-of-type {
+  font-style: italic;
+}
+
+section.malla-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin: 20px;
+}
+
+section.malla-skills div {
+  width: 25%;
+}
+
+section.malla-skills img {
+  max-width: 30%;
+  box-shadow: 5px 5px 5px #212121;
+  border-radius: 50%;
+}
+
+section.malla-skills.centrado {
+  justify-content: center;
+}
+
+section.malla-skills.centrado div {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: #6d9886;
+  color: #f6f6f6;
+  clear: both;
+}
+
+footer span {
+  display: inline-block;
+  padding: 15px;
+  vertical-align: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f6f6f6;
+}
+
+footer a:hover {
+  font-weight: bolder;
+  color: #212121;
+}
+
+footer p:first-child {
+  margin: 0;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+footer p:last-child {
+  font-size: 12px;
+  margin-bottom: 0;
+}

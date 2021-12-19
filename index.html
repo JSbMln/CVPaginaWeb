@@ -6,13 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juan Sebastian Molina</title>
-    <link rel="stylesheet" href="CSS/estiloCV.css">
+    <link rel="stylesheet" href="CSS/estilo.css">
     <link rel="shortcut icon" href="favicon.ico?v=2" type="image/x-icon">
 </head>
 <body>
-    <!-- Titulo -->
+    <nav>    
+        <a href="#"><i class="bi bi-house-fill"></i>Inicio</a>
+        <a href="Paginas/experiencia.html"><i class="bi bi-briefcase-fill"></i>Experiencia Profesional</a>
+        <a href="Paginas/formacion.html"><i class="bi bi-mortarboard-fill"></i>Formación</a>
+        <a href="Paginas/habilidades.html"><i class="bi bi-vector-pen"></i>Habilidades</a>
+    </nav>
     <header>
-        <img src="Imagenes/Foto.jpeg", id="fotoPerfil">
+        <img src="Imagenes/Foto.jpeg" alt="foto-perfil">
         <div>
             <h1 style="font-size: 40px;">
                 Juan Sebastian Molina
@@ -22,40 +27,68 @@
             </h2>
         </div>
     </header>
-    <hr/>
-    <!-- Barra de navegacion -->
-    <nav>    
-        <a href="#">Inicio</a>
-        <a href="Paginas/experiencia.html">Experiencia Profesional</a>
-        <a href="Paginas/formacion.html">Formación</a>
-        <a href="Paginas/habilidades.html">Habilidades</a>
-    </nav>
-    <!-- Sobre mi -->
-    <section class="sobreMi">
-    <h3>Sobre Mi</h3>
-        <p>
-            Tengo formación en <strong>Ingeniería Eléctrica</strong> con conocimientos en las areas de <strong>Sistemas Eléctricos de Potencia | 
-            Distribución, Transmisión y Generación de Energía Eléctrica | Diseño de Instalaciones Eléctricas | Alto Voltaje | Máquinas Eléctricas y
-            Análisis de Circuitos Eléctricos.</strong> Además aprendi el manejo de <strong>DIgSILENT Power Factory</strong> y programación con 
-            <strong>Matlab / Simulink.</strong>
-        </p>
-        <p>
-            Aunque soy Ingeniero Eléctrico, siempre he sentido interes por las Tecnologías de la Información, Programacion y las computadoras
-            en general, motivo por el cual actualmente estoy aprendiendo <strong>programación con Python</strong>, 
-            <strong>Bases de Datos</strong> y <strong>Desarrollo Web.</strong> También me interesan otras areas relacionadas como 
-            <strong>Aprendizaje Automatico e IA</strong>, <strong>Ingeniería y Ciencia de Datos</strong>, y en menor medida 
-            <strong>Ciberseguridad y Redes.</strong>
-        </p>
-        <p>
-            Quiero continuar aprendiendo nuevas habilidades que me permitan crecer profesionalmente y desarrollar cosas interesantes como
-            la Página Web que estas visualizando en este momento. Muchas gracias por visitar ésta página, en la parte de abajo encontrarás 
-            mi correo electrónico y enlaces a mi GitHub y LinkedIn.
-        </p>
-    </section>
-    <hr/>
-    <!-- Pie de Pagina -->
+    <main class="desc-alternada">
+        <h1>Sobre Mi</h1>
+        <section>
+            <img src="Imagenes/linea_transmision.png" alt="linea-transmision">
+            <h2>Ingeniero Eléctrico</h2>
+            <p>
+                Me gradué de Ingeniero Eléctrico en la Escuela Politécnica Nacional, durante mi carrera obtuve conocimientos en distintas áreas
+                como: Diseño de Instalaciones Eléctricas, Generación, Transmisión y Distribución de Energía Eléctrica, Protecciones Eléctricas,
+                Calidad de la Energía Eléctrica, Alto Voltaje, Maquinas Eléctricas como Motores y Transformadores 
+                y Análisis de Sistemas Eléctricos de Potencia. También aprendí sobre programación y simulación utilizando MATLAB, Simulink
+                y Python.
+            </p>
+            <p>
+                Áreas de Interes: Generación de energía, Energías Renovables, Sistemas Eléctricos de Potencia y Maquinas Eléctricas.
+            </p>
+        </section>
+        <section>
+            <img src="Imagenes/compu.png" alt="imagen-pc">
+            <h2>Informática y Tecnología</h2>
+            <p>
+                Aunque tengo formación en Ingeniería Eléctrica siempre me ha gustado la Informática y la Programación, motivo por el cual estoy
+                aprendiendo sobre programación en Python, Desarrollo Web y Bases de Datos. Además, aunque en menor medida he estudiado un poco 
+                de Ciberseguridad, Sistemas Operativos y Redes, los cuales creo que son complementos necesarios para un buen uso y entendimiento
+                de las Tecnologías de la Información. 
+            </p>
+            <p>
+                Áreas de Interés: Ingeniería y Ciencia de Datos, Desarrollo Web, Computación en la Nube y Desarrollo de Aplicaciones.
+            </p>
+        </section>
+        <h1>Pasatiempos</h1>
+        <section>
+            <img src="Imagenes/cocina.png" alt="imagen-cocina">
+            <h2>Cocina</h2>
+            <p>
+                Una de las cosas que mas disfruto hacer es la cocina, me parece muy interesante el poder buscar e intentar recetas nuevas, y en
+                algunos casos incluso inventar mis propias recetas. Gracias a esto he aprendido a mejorar mi creatividad, mi paciencia y mi
+                concentración, además de poder realizar una buena comida en casa sin gastar demasiado.
+            </p>
+        </section>
+        <section>
+            <img src="Imagenes/juego.png" alt="imagen-juego">
+            <h2>Videojuegos</h2>
+            <p>
+                Otro de mis pasatiempos favoritos son los videojuegos, me gusta la manera en como algunos juegos pueden contar historias muy
+                interesantes, otros simplemente ayudan a pasar un buen rato y divertirse despues de terminar las tareas del día.
+                Mi género favorito es la Estrategia en Tiempo Real, ya que permite mucha rejugabilidad y ayuda a aprender como gestionar tus
+                recursos y crear nuevas tácticas para obtener la victoria. Aunque en general disfruto de todos los géneros de videojuegos.
+            </p>
+        </section>
+        <section>
+            <img src="Imagenes/libros.png" alt="imagen-libro">
+            <h2>Lectura</h2>
+            <p>
+                A veces me gusta leer algún libro interesante, mis libros favoritos son de tipo fantasía, como el Hobbit. Gracias a esto es que
+                además cuando tengo algún problema, puedo buscar como resolverlo en internet o en alguna fuente bibliográfica que tenga a 
+                disposición, y hasta ahora me ha funcionado bien y he podido encontrar diversas soluciones.
+            </p>
+        </section>
+    </main>
     <footer>
-        <span>Correo: 
+        <p>Información de Contacto y Links</p>
+        <span>Correo:
             <a href="mailto:juan.molf16@gmail.com?subject=Contacto">juan.molf16@gmail.com</a>
         </span>
         <span>Quito, Ecuador</span>
