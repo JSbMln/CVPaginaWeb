@@ -166,3 +166,19 @@ footer p:last-child {
   font-size: 12px;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 900px) {
+  section.malla-skills {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  section.malla-skills div {
+    width: 80%;
+    text-align: center;
+  }
+
+  section.malla-skills ul {
+    list-style: none;
+  }
+}
